@@ -1,0 +1,26 @@
+Brian Leach, Eden Sasson, Aqib Shah
+
+Paragraph 1: Experience with NACHOS
+The layout of instructions to install Nachos were fairly simple, however prior knowledge of UNIX
+and specifically the FIU servers was definitely necessary. The TA video and walkthrough 
+was very detailed and helped confirm that we were doing everything correctly. In order to get
+the files onto the system we found 2 methods that worked well: 1) using a terminal in mac to 
+run the line "scp -r nachos-3.4-linux <user id>@ocelot.aul.fiu.edu:~/<path to nachosdir>"
+2) utilize a FTP Client like Filezilla to move the files to the server. Reading into the 
+nachos files and directories was definitely overwhelming for us. Our experience creating 
+Makefiles and other UNIX programs did not seem to be at Nachos creation level. There will need
+to be much more time spent in order to become proficient in the Nachos environment. 
+
+Paragraph 2: Experience with the Tests
+After getting the files onto the server, running the tests was straightforward with the step-
+by-step guide. All of the tests ran correctly the first run through. Again, the TA video
+was very useful in confirming values and following along properly. The analytics returned
+helped understand what was going on especially in the step through test. 
+
+Paragraph 3: The Thread Class
+The threads directory contains the main Nachos operating system interface that allows a user to make
+system calls, run user programs, debug, see analytics, multithread kernel processes, etc.
+The Thread class employs basic multithreading techniques (fork, finish, yield, sleep) to
+manage threads and control memory usage. There is also a constructor for the thread type 
+containing the necessary variables and initializes a thread control block. 
+ 

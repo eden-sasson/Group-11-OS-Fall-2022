@@ -1,0 +1,12 @@
+Group 10: Brian Leach, Eden Sasson, Aqib Shah
+
+Exercise 1: Current status: Complete. The code uses semaphores in order to enter and then exit the critical sections.
+
+
+Exercise 2: Current status: Complete. The code implements four missing lock functions along with a boolean to determine if it “isFree”.
+
+
+Exercise 3: Current status: Complete. The code implements Condition operations utilizing queues.
+
+
+Exercise 4: Current status: Complete. Tested on Elevator(5,5) through Elevator(50,50).
